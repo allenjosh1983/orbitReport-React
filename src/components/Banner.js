@@ -1,11 +1,14 @@
-import React from "react";
-function Banner() {
+
+
+function Banner(){
     return (
+        <div className="Banner">
         <header>
             <h1>Orbit Report</h1>
             <p>Click on the buttons to see the satellites in that orbit type</p>
         </header>
+        </div>
     );
 }
 
-export defalut Banner;
+export default Banner;
